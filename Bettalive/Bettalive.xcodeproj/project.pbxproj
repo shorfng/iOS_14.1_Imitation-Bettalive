@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		738431D21DDDAD3000DCBB2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738431D11DDDAD3000DCBB2F /* AppDelegate.swift */; };
+		738431D41DDDAD3000DCBB2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738431D31DDDAD3000DCBB2F /* ViewController.swift */; };
+		738431D71DDDAD3000DCBB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738431D51DDDAD3000DCBB2F /* Main.storyboard */; };
+		738431D91DDDAD3000DCBB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738431D81DDDAD3000DCBB2F /* Assets.xcassets */; };
+		738431DC1DDDAD3000DCBB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738431DA1DDDAD3000DCBB2F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		738431CE1DDDAD3000DCBB2F /* Bettalive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bettalive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738431D11DDDAD3000DCBB2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		738431D31DDDAD3000DCBB2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		738431D61DDDAD3000DCBB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		738431D81DDDAD3000DCBB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		738431DB1DDDAD3000DCBB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		738431DD1DDDAD3000DCBB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		738431CB1DDDAD3000DCBB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738431C51DDDAD3000DCBB2F = {
+			isa = PBXGroup;
+			children = (
+				738431D01DDDAD3000DCBB2F /* Bettalive */,
+				738431CF1DDDAD3000DCBB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		738431CF1DDDAD3000DCBB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				738431CE1DDDAD3000DCBB2F /* Bettalive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738431D01DDDAD3000DCBB2F /* Bettalive */ = {
+			isa = PBXGroup;
+			children = (
+				738431D11DDDAD3000DCBB2F /* AppDelegate.swift */,
+				738431D31DDDAD3000DCBB2F /* ViewController.swift */,
+				738431D51DDDAD3000DCBB2F /* Main.storyboard */,
+				738431D81DDDAD3000DCBB2F /* Assets.xcassets */,
+				738431DA1DDDAD3000DCBB2F /* LaunchScreen.storyboard */,
+				738431DD1DDDAD3000DCBB2F /* Info.plist */,
+			);
+			path = Bettalive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		738431CD1DDDAD3000DCBB2F /* Bettalive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738431E01DDDAD3000DCBB2F /* Build configuration list for PBXNativeTarget "Bettalive" */;
+			buildPhases = (
+				738431CA1DDDAD3000DCBB2F /* Sources */,
+				738431CB1DDDAD3000DCBB2F /* Frameworks */,
+				738431CC1DDDAD3000DCBB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bettalive;
+			productName = Bettalive;
+			productReference = 738431CE1DDDAD3000DCBB2F /* Bettalive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		738431C61DDDAD3000DCBB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "蓝田";
+				TargetAttributes = {
+					738431CD1DDDAD3000DCBB2F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 738431C91DDDAD3000DCBB2F /* Build configuration list for PBXProject "Bettalive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 738431C51DDDAD3000DCBB2F;
+			productRefGroup = 738431CF1DDDAD3000DCBB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738431CD1DDDAD3000DCBB2F /* Bettalive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		738431CC1DDDAD3000DCBB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738431DC1DDDAD3000DCBB2F /* LaunchScreen.storyboard in Resources */,
+				738431D91DDDAD3000DCBB2F /* Assets.xcassets in Resources */,
+				738431D71DDDAD3000DCBB2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738431CA1DDDAD3000DCBB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738431D41DDDAD3000DCBB2F /* ViewController.swift in Sources */,
+				738431D21DDDAD3000DCBB2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		738431D51DDDAD3000DCBB2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738431D61DDDAD3000DCBB2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		738431DA1DDDAD3000DCBB2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738431DB1DDDAD3000DCBB2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		738431DE1DDDAD3000DCBB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		738431DF1DDDAD3000DCBB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738431E11DDDAD3000DCBB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bettalive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loto.com.Bettalive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		738431E21DDDAD3000DCBB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bettalive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loto.com.Bettalive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		738431C91DDDAD3000DCBB2F /* Build configuration list for PBXProject "Bettalive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738431DE1DDDAD3000DCBB2F /* Debug */,
+				738431DF1DDDAD3000DCBB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738431E01DDDAD3000DCBB2F /* Build configuration list for PBXNativeTarget "Bettalive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738431E11DDDAD3000DCBB2F /* Debug */,
+				738431E21DDDAD3000DCBB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 738431C61DDDAD3000DCBB2F /* Project object */;
+}
